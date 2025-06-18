@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario e inputs</title>
+</head>
+
+<body>
+    <div style="border: 1px solid red">
+        <form action="">
+            <label for="">Nome completo</label>
+            <input type="text" placeholder="Digite o seu nome completo">
+            <br>
+            <br>
+            <label for="">Email</label>
+            <input type="email" placeholder="digite seu email">
+            <br>
+            <br>
+            <label for="">Senha:</label>
+            <input type="password" placeholder="digite sua senha">
+            <br>
+            <br>
+            <label for="">Genero</label>
+            <label for="male">
+                <input type="radio" name="gender" value="male"> Masculino
+            </label>
+            <label for="female">
+                <input type="radio" name="gender" value="female" id=""> Feminino
+            </label>
+            <label><input type="radio" name="gender" value="other"> Outro
+            </label>
+            <br>
+            <br>
+            <label for="city">Cidade:</label>
+            <select name="city" id="">
+                <option value="br">Sobral</option>
+                <option value="br">Campo Bom</option>
+                <option value="br">Belo Horizonte</option>
+                <option value="br">Porto Alegre</option>
+                <option value="br">Xique-Xique</option>
+            </select>
+            <br>
+            <br>
+            <label for="message">Mensagem:</label>
+            <textarea name="message" rows="4" placeholder="Deixe sua mensagem" id=""></textarea>
+            <br>
+            <br>
+
+            <label for="terms">
+                <input type="checkbox" name="terms" required> Aceito os termos de condição
+            </label>
+            <br>
+            <br>
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+</body>
+
+</html>
